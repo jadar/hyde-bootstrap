@@ -1,4 +1,3 @@
-
 ## [Hyde-bootstrap](http://jadar.github.io/hyde-bootstrap)
 
 An elegant open source, mobile first theme for [Jekyll](https://github.com/mojombo/jekyll). It includes lightweight styles and placeholder content to get you up and running with a simple blog in no time.
@@ -77,6 +76,14 @@ Hyde's page orientation can be reversed with a single class.
 </body>
 ```
 
+###Removing project-specific navigation content
+
+To remove the "GitHub Project" and "Download" and "Vesion v" from the site's navigation bar, simply change a setting in your site config.
+
+```yaml
+github:
+  repo: false
+```
 
 ## Author
 
